@@ -13,7 +13,7 @@ def hash_names(names: List[str]) -> List[int]:
     Returns
     ---------
     List[int]
-        List of hashes for strings from names param.
+        List of hashes of strings from names param.
 
     Examples
     --------
