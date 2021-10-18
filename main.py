@@ -14,5 +14,11 @@ def hash_names(names: List[str]) -> List[int]:
     ---------
     List[int]
         List of hashes for strings from names param.
+
+    Examples
+    --------
+    names = ['Alexey', 'Ivan', 'Petr']
+    hash_names(names)
+    [-6913778901462750956, 4044914442677255742, -8154646851311137882]
     """
     return list(map(hash, names))
